@@ -13,3 +13,11 @@ Use the former in client components and the latter in server components.
 Run asynchronous code directly on the server through functions that can be invoked from both client and server components.
 
 Behind the scenes, Next creates a POST API endpoint for every server action.
+
+## `error.tsx`
+
+Always a client component. Fallback to all the errors in its folder or child folders. Can be a good place to make error reporting.
+
+## `notFound()` + `not-found.tsx`
+
+`not-found.tsx` will always be displayed by Next when we call `notFound()`. Takes precedence over `error.tsx`
