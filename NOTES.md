@@ -21,3 +21,11 @@ Always a client component. Fallback to all the errors in its folder or child fol
 ## `notFound()` + `not-found.tsx`
 
 `not-found.tsx` will always be displayed by Next when we call `notFound()`. Takes precedence over `error.tsx`
+
+## `next lint`
+
+Warns issues with linting and accessibility - include in the CI/CD pipeline?
+
+## Server-side form validation
+
+Single source of truth when it comes to valid data - no need to validate on both sides.
