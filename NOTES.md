@@ -7,3 +7,9 @@ Data rendered **dynamically** is processed at _request time_ - will output the m
 ## `useSearchParams()` vs `props.searchParams`
 
 Use the former in client components and the latter in server components.
+
+## Server actions
+
+Run asynchronous code directly on the server through functions that can be invoked from both client and server components.
+
+Behind the scenes, Next creates a POST API endpoint for every server action.
