@@ -8,6 +8,11 @@ import {
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import CardWrapper from '@/app/ui/dashboard/cards';
 import { lusitana } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Overview',
+};
 
 export default async function Page() {
   return (
